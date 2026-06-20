@@ -1,0 +1,58 @@
+@import "tailwindcss";
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+/* Card Hover */
+
+.card-hover {
+    transition: all 0.35s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(168, 85, 247, 0.15);
+}
+
+
+/* Logo Hover */
+
+.logo-hover {
+    transition: all .3s ease;
+}
+
+.logo-hover:hover {
+    transform: scale(1.08);
+}
+
+
+/* Purple Button */
+
+.purple-btn {
+    transition: all .3s ease;
+}
+
+.purple-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 40px rgba(168, 85, 247, .35);
+}
+
+
+/* Navbar */
+
+nav {
+    backdrop-filter: blur(20px);
+}
+
+
+/* Anchor Scroll Fix */
+
+section {
+    scroll-margin-top: 100px;
+}
