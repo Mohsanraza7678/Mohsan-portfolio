@@ -12,9 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Mohsan Raza  | AI Startup Growth Partner",
-  description: "Helping AI Startups grow through Twitter campaigns , creator partnerships and launch promotions. ",
+export const metadata = {
+  title: "Mohsan Raza | AI Startup Growth Partner",
+  description: "Helping AI startups grow through Twitter campaigns and creator partnerships.",
+  verification: {
+    google: "RThvhq5ba6Q0mLAOrO_CJKolDlxcHq_AwBmmBY_vbXg",
+  },
 };
 
 export default function RootLayout({
