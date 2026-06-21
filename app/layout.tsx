@@ -15,9 +15,38 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Mohsan Raza | AI Startup Growth Partner",
-  description: "Helping AI startups grow through Twitter campaigns and creator partnerships.",
+
+  description:
+    "Helping AI startups grow through Twitter campaigns, creator partnerships and brand awareness.",
+
   verification: {
     google: "RThvhq5ba6Q0mLAOrO_CJKolDlxcHq_AwBmmBY_vbXg",
+  },
+
+  openGraph: {
+    title: "Mohsan Raza | AI Startup Growth Partner",
+    description:
+      "Helping AI startups grow through Twitter campaigns, creator partnerships and brand awareness.",
+    url: "https://mohsan-portfolio-six.vercel.app",
+    siteName: "Mohsan Raza",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Mohsan Raza - AI Startup Growth Partner",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Mohsan Raza | AI Startup Growth Partner",
+    description:
+      "Helping AI startups grow through Twitter campaigns, creator partnerships and brand awareness.",
+    images: ["/og-image.jpg"],
   },
 };
 
