@@ -429,25 +429,56 @@ export default function Home() {
 
   <div className="grid grid-cols-2 gap-4 md:gap-6">
 
-    <div className="card-hover bg-white border border-gray-200 rounded-2xl p-8 text-center">
-      AI Startups
-    </div>
+   <details className="card-hover bg-white border border-gray-200 rounded-2xl p-6 cursor-pointer">
+  <summary className="font-bold text-lg">
+    AI Startups
+  </summary>
 
-    <div className="card-hover bg-white border border-gray-200 rounded-2xl p-8 text-center">
-      SaaS Founders
-    </div>
+  <p className="mt-4 text-gray-600">
+    Early-stage and growing AI companies looking for visibility,
+    users, partnerships and brand awareness.
+  </p>
+</details>
 
-    <div className="card-hover bg-white border border-gray-200 rounded-2xl p-8 text-center">
-      AI Agents
-    </div>
+<details className="card-hover bg-white border border-gray-200 rounded-2xl p-6 cursor-pointer">
+  <summary className="font-bold text-lg">
+    SaaS Founders
+  </summary>
 
-    <div className="card-hover bg-white border border-gray-200 rounded-2xl p-8 text-center">
-      Developer Tools
-    </div>
+  <p className="mt-4 text-gray-600">
+    Software founders building subscription products who need audience growth and product promotion.
+  </p>
+</details>
 
-    <div className="card-hover bg-white border border-gray-200 rounded-2xl p-8 text-center">
-      B2B AI Products
-    </div>
+<details className="card-hover bg-white border border-gray-200 rounded-2xl p-6 cursor-pointer">
+  <summary className="font-bold text-lg">
+    AI Agent Companies
+  </summary>
+
+  <p className="mt-4 text-gray-600">
+    Companies building AI agents for automation, workflows, customer support and productivity.
+  </p>
+</details>
+
+<details className="card-hover bg-white border border-gray-200 rounded-2xl p-6 cursor-pointer">
+  <summary className="font-bold text-lg">
+    Developer Tools
+  </summary>
+
+  <p className="mt-4 text-gray-600">
+    Platforms, APIs and infrastructure products used by developers to build software and AI applications.
+  </p>
+</details>
+
+<details className="card-hover bg-white border border-gray-200 rounded-2xl p-6 cursor-pointer">
+  <summary className="font-bold text-lg">
+    B2B AI Products
+  </summary>
+
+  <p className="mt-4 text-gray-600">
+    Business-to-business AI solutions sold to companies, such as AI sales tools, AI support platforms and enterprise automation software.
+  </p>
+</details>
 
   </div>
 
