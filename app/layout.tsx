@@ -31,7 +31,7 @@ export const metadata = {
     siteName: "Mohsan Raza",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.jpeg",
         width: 1200,
         height: 630,
         alt: "Mohsan Raza - AI Startup Growth Partner",
@@ -46,7 +46,7 @@ export const metadata = {
     title: "Mohsan Raza | AI Startup Growth Partner",
     description:
       "Helping AI startups grow through Twitter campaigns, creator partnerships and brand awareness.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.jpeg"],
   },
 };
 
