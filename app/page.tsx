@@ -886,9 +886,21 @@ export default function Home() {
 
     </div>
 
-    <p className="text-gray-500">
-      © 2025 Mohsan Raza. All rights reserved.
-    </p>
+    <div className="space-y-2">
+
+  <p className="text-gray-500">
+    📍 Pakistan
+  </p>
+
+  <p className="text-gray-500">
+    📞 +923136727678
+  </p>
+
+  <p className="text-gray-500">
+    © 2025 Mohsan Raza. All rights reserved.
+  </p>
+
+</div>
 
   </div>
 
